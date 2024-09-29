@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url('background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#card-pile {
+    cursor: pointer;
+    width: 200px;
+    height: 280px;
+    background-color: #ccc;
+    margin: 20px auto;
+    position: relative;
+    display: inline-block;
+}
+
+img {
+    width: 200px;
+    height: 280px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+
+#player-maria, #player-joaquim {
+    width: 50%;
+    padding: 10px;
+}
+
+#player-maria {
+    background-color: darkred;
+}
+
+#player-joaquim {
+    background-color: black;
+}
+
+#message {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: yellow;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 0, 0.5);
+}
+
+#round-counter {
+    margin-top: 20px;
+    font-size: 22px;
+    font-weight: bold;
+    color: lightblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+}
+
+#restart {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: #f00;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#restart:hover {
+    background-color: darkred;
+}
+
+.restart-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#storage-cards {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 150px;
+    background-color: #ccc;
+    margin: 80px auto;
+    position: relative;
+    justify-content: center;
+    color: wheat;
+}

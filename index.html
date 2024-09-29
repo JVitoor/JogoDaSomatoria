@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="icon.png">
+    <title>Jogo do Somatório</title>
+</head>
+<body>
+    <h1>Jogo do Somatório</h1>
+
+    <div id="storage-cards">
+        <div id="player-maria">
+            <h3>Maria</h3>
+            <div class="card-container" id="maria-cards">
+                <img id="maria-card" src="" alt="Carta do Maria">
+            </div>
+            <p>Pontos de Maria: <span id="maria-score">0</span></p>
+        </div>
+
+        <div id="player-joaquim">
+            <h3>Joaquim</h3>
+            <div class="card-container" id="joaquim-cards"></div>
+            <p>Pontos de Joaquim: <span id="joaquim-score">0</span></p>
+        </div>
+    </div>
+
+    <h3 id="round-counter"></h3>
+
+    <div id="card-pile">
+        <img id="top-card" src="" alt="Carta do Monte">
+    </div>
+
+    <h3 id="message"></h3>
+
+    <div class="restart-container">
+        <button id="restart" style="display: none;">Reiniciar Jogo</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
